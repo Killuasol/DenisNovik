@@ -1,0 +1,316 @@
+@import url("https://fonts.cdnfonts.com/css/gilroy-bold");
+
+a:active,
+a:hover,
+a {
+    text-decoration: none;
+}
+
+.container {
+    margin: 0 auto;
+    width: 944px;
+}
+
+.header {
+    height: 88px;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.navigation {
+    height: 88px;
+    border-bottom: 1px solid rgba(196, 196, 196, 0.3);
+}
+
+.navigation__list {
+    height: 88px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__text {
+    font-family: "Gilroy-Bold";
+    font-size: 18px;
+    line-height: 22px;
+    color: #828282;
+}
+
+
+.rubric {
+    display: flex;
+    justify-content: space-between;
+}
+
+.name {
+    width: 123px;
+    height: 118px;
+    margin-top: 33px;
+    margin-right: -12px;
+    margin-bottom: 39px;
+}
+
+.name__text {
+    font-family: "Gilroy-Bold";
+    font-size: 47px;
+    line-height: 59px;
+}
+
+.design__text {
+    font-family: "Gilroy-Medium";
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.design {
+    width: 155px;
+    height: 44px;
+    margin-top: 94px;
+}
+
+.version {
+    display: flex;
+    align-items: center;
+}
+
+.version__text__ru {
+    font-family: "Gilroy-Bold";
+    font-size: 16px;
+    line-height: 20px;
+    color: #828282;
+}
+
+.version__text__en {
+    font-family: "Gilroy-Bold";
+    font-size: 16px;
+    line-height: 20px;
+}
+
+
+.photo__human {
+    margin-bottom: 102px;
+}
+
+
+.foreword {
+    height: 506px;
+    background: aqua;
+    margin-bottom: 84px;
+}
+
+.foreword__head {
+    font-family: "Gilroy-Bold";
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    margin-bottom: 23px;
+    padding: 114px 390px 0 390px;
+}
+
+.foreword__text {
+    width: 485px;
+    margin: 0 auto;
+    height: 218px;
+}
+
+.foreword__text__indent {
+    font-family: "Gilroy-Medium";
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+}
+
+.foreword__margin {
+    margin-bottom: 43px;
+}
+
+
+.ability {
+    font-family: "Gilroy-Bold";
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    margin-bottom: 57px;
+}
+
+.programs__using {
+    font-family: "Gilroy-Medium";
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    margin-bottom: 87px;
+}
+
+.skills {
+    height: 424px;
+}
+
+.program {
+    margin: 0 auto;
+    width: 862px;
+    height: 183px;
+}
+
+.programs {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 45px;
+}
+
+.img__margin {
+    margin-bottom: 18px;
+}
+
+.figcaption__block {
+    width: 90px;
+    height: 27px;
+}
+
+.figcaption__text {
+    font-family: "Gilroy-Bold";
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #828282;
+}
+
+.img__figma {
+    width: 90px;
+    height: 90px;
+}
+
+
+.rating {
+    display: flex;
+    justify-content: space-between;
+    width: 932px;
+    margin: 0 auto;
+}
+
+.star {
+    display: flex;
+    justify-content: space-between;
+    width: 161px;
+}
+
+.portfolio {
+    background-color: #F6F6F6;
+    Height: 2253px;
+    margin-bottom: 1px;
+}
+
+.portfolio__text {
+    font-family: "Gilroy-Bold";
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    margin-bottom: 55px;
+    padding-left: 2px;
+}
+
+.img__jacket {
+    padding-left: 6px;
+    margin-bottom: 39px;
+}
+
+.figure__jacket {
+    text-align: center;
+    margin-bottom: 102px;
+}
+
+.figure__text {
+    font-family: "Gilroy-Medium";
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: underline;
+    padding-left: 8px;
+    color: #070707;
+}
+
+.img__reebok {
+    padding-left: 2px;
+    margin-bottom: 40px;
+}
+
+.figure__reebok {
+    text-align: center;
+    margin-bottom: 101px;
+}
+
+.img_camera {
+    margin-bottom: 42px;
+}
+
+.figure__camera {
+    text-align: center;
+}
+
+
+.contacts__text {
+    font-family: "Gilroy-Bold";
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.contact__location {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.contact {
+    width: 275px;
+    height: 44px;
+    text-align: center;
+}
+
+.contacts__span__text {
+    font-family: "Gilroy-Medium";
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.contacts__block {
+    margin-bottom: 33px;
+}
+
+.contacts__button {
+    font-family: 'Gilroy-Bold';
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    width: 180px;
+    height: 42px;
+    cursor: pointer;
+    border: none;
+    background: #070707;
+    border-radius: 25px;
+    margin-bottom: 85px;
+
+}
+
+
+.address__list {
+    width: 342px;
+    height: 41px;
+    margin-left: -34px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 43px;
+}
+
+.messages {
+    font-family: "Gilroy-Medium";
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #828282;
+    margin-right: -5px;
+}
